@@ -18,5 +18,6 @@ public class NameGeneratorTest {
         for (int i = 0; i < 100; i++) {
             System.out.println(generator.generate(rand));
         }
+		System.out.println("local");
     }
 }
